@@ -19,18 +19,17 @@ class Matrix {
 			*/
 		}
 
+		// ITERATE THROUGH EACH ROW
+		for(int row = 0; row < nums.GetLength(0); row++) {
+			for(int column = 0; column < nums.GetLength(1); column++) {
+				Console.Write("Row " + row + ", Column " + column + " -> " + nums[row, column] + "\n");
+			}
+		}
+
 		
 		// ITERATE THROUGH A COLUMN
 		for(int i = 0; i < nums.GetLength(1); i++) {
 			Console.WriteLine(nums[i, 0]);
-		}
-
-		
-		// ITERATE THROUGH EVERYTHING
-		for(int i = 0; i < nums.GetLength(0); i++) {
-			for(int j = 0; j < nums.GetLength(1); j++) {
-				Console.Write(nums[i, j] + " ");
-			}
 		}
 
 		
