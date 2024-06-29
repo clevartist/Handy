@@ -49,9 +49,9 @@ class Matrix {
 
 		// ITERATE ON DIAGONAL (TOP RIGHT -> BOTTOM LEFT)
 		int rows = nums.GetLength(0);
-        int columns = nums.GetLength(1);
+        	int columns = nums.GetLength(1);
         
-        for (int i = 0; i < rows; i++) {
+        	for (int i = 0; i < rows; i++) {
 			Console.WriteLine(nums[i, columns - 1 - i]);
 		}
 	}
