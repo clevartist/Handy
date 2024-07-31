@@ -1,5 +1,6 @@
 <h2>Step 0:</h2>
-<p>Create a file (ex: <code>hello-world-gtk.c</code>)</p>
+<h4>Create a file</h4>
+<p>(ex: <code>hello-world-gtk.c</code>)</p>
 
 <h2>Step 1:</h2> 
 <h4>Compile program</h4>
