@@ -8,6 +8,8 @@
 <p>use -> <code>ls</code></p>
 <p>- Next, compile:</p>
 <code>gcc hello-world-gtk.c -o hello-world-gtk `pkg-config --cflags --libs gtk4`</code>
+<p>- To run without the large command window left behind, add <code>-mwindows</code> at the end of the compiling line:</p>
+<code>gcc hello-world-gtk.c -o hello-world-gtk `pkg-config --cflags --libs gtk4` -mwindows</code>
 
 <h2>Step 2: </h2>
 <h4>Run program</h4>
