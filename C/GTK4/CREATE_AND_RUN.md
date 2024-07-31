@@ -7,7 +7,7 @@
 <p>- First, just in case, make sure the file is truly in the directory:</p>
 <p>use -> <code>ls</code></p>
 <p>- Next, compile:</p>
-<code>gcc hello-world-gtk.c -o hello-world-gtk `pkg-config --cflags --libs gtk4`</code>
+<p><code>gcc hello-world-gtk.c -o hello-world-gtk `pkg-config --cflags --libs gtk4`</code></p>
 <p>- To run without the large command window left behind, add <code>-mwindows</code> at the end of the compiling line:</p>
 <code>gcc hello-world-gtk.c -o hello-world-gtk `pkg-config --cflags --libs gtk4` -mwindows</code>
 
